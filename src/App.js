@@ -1,11 +1,9 @@
 
-import './App.css';
+import Body from './components/Body';
 
 function App() {
   return (
-    <div className='font-bold bg-slate-50 border border-black'>
-      Nmaste Everyone
-    </div>
+    <Body/>
   );
 }
 
