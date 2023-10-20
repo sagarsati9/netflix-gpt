@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities{
+    @variants responsive{
+        /* Hide scrollbar for Chrome */
+        .no-scrollbar::-webkit-scrollbar{
+            display: none;
+        }
+    }
+}
+
